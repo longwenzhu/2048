@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  .my2048{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background: #bbada0;
+    user-select: none;
+  }
+  .my2048 div{
+    background: #cdc0b4;
+    position: absolute;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform .2s, left .5s, top .5s;
+  }
+  
+</style>
+<body>
+  <div class="my2048">
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
